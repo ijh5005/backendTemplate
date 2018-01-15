@@ -1,0 +1,27 @@
+html,
+body {
+  background-color: #222;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.flexRow {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.flexCol {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  color: #999;
+  font-size: 6em;
+  height: 100vh;
+  width: 100vw;
+}
